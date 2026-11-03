@@ -51,4 +51,4 @@ SELECT DATE_FORMAT(joining_date,'%d-%M-%Y') FROM employee_attendance;
 SELECT STR_TO_DATE('25-Dec-2024','%d-%b-%Y');
 SELECT CURDATE();
 SELECT NOW();
-SELECT LAST_DAY(joining_date) FROM employee_attendance;
+SELECT LAST_DAY(joining_date) FROM employee_attendance as s;
